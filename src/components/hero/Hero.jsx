@@ -61,11 +61,11 @@ const Hero = () => {
                     <motion.p variants={awardVariants}>
                     I develop custom applications designed to solve real business challenge and improve operational efficiency.
                 </motion.p>
-                <motion.div variants={awardVariants} className="awardsList">
+{/*             <motion.div variants={awardVariants} className="awardsList">
                     <motion.img variants={awardVariants} src="/award1.png" alt="" />
                     <motion.img variants={awardVariants} src="/award2.png" alt="" />
                     <motion.img variants={awardVariants} src="/award3.png" alt="" />
-                </motion.div>
+                </motion.div> */}
             </motion.div>
                 {/* SCROLL SVG */}
                 <motion.a 
@@ -113,7 +113,7 @@ const Hero = () => {
                     animate="animate"
                     className="follow"
                 >
-                <motion.a variants={followVariants} href="/">
+                <motion.a variants={followVariants} href="https://www.linkedin.com/in/roberto-guides-3bb10a384">
                     <img src="/instagram.png" alt="" />
                 </motion.a>
                 <motion.a variants={followVariants} href="/">

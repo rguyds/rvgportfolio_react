@@ -39,6 +39,15 @@ section{
     height: 100vh;
     scroll-snap-align: center;
 }
+
+section#portfolio {
+    height: 500vh;
+}
+section#contact {
+    min-height: 100vh;
+    height: auto;
+    scroll-snap-align: start;
+}
 section:nth-child(1){
     background-color: #2f204e;
 }
